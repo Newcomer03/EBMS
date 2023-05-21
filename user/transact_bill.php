@@ -14,6 +14,7 @@
 //UPDATE TRANSACTION
 
     if (isset($_POST['pay_bill'])) {
+        include("payscript.php");
         $query  =  "UPDATE user , bill , transaction ";
         $query .=  "SET bill.status='PROCESSED' , transaction.status='PROCESSED' , pdate=curdate() ";
         $query .=  "where user.id={$uid} AND bill.id=transaction.bid AND bill.units={$units} "; 

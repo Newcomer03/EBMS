@@ -18,7 +18,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button> -->
-        <a class="navbar-brand" href="index.php"><i class="fa fa-bolt"></i> E-Billing System</a> 
+        <a class="navbar-brand" href="index.php"><i class="fa fa-bolt"></i> EBMS</a> 
     </div>
     <!-- /.navbar-header -->
     
