@@ -25,6 +25,4 @@
                 die('Error: ' . mysqli_error($con));
         }
     }
-
-    header("Location:bill.php");
 ?>

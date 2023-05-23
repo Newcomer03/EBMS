@@ -72,7 +72,7 @@
                                                     <td height="50"><?php echo $row['user'] ?></td>
                                                     <td><?php echo $row['bdate'] ?></td>
                                                     <td><?php echo $row['units'] ?></td>
-                                                    <td><?php echo '$'.$row['amount'] ?></td>
+                                                    <td><?php echo '₹'.$row['amount'] ?></td>
                                                     <td><?php echo $row['ddate'] ?></td>
                                                     <td><?php if($row['status'] == 'PENDING') { echo'<span class="badge" style="background: red;">'.$row["status"].'</span>'; } else { echo'<span class="badge" style="background: green;">'.$row["status"].'</span>';} ?></td>
                                                 </tr>
